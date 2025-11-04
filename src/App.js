@@ -195,10 +195,10 @@ function App() {
                 onClick={handleFindDesigner}
                 className="bg-lime-accent text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-green-600 transition-colors"
               >
-                Find a Designer
+                I need a Designer
               </button>
               <button className="border border-gray-300 text-black px-8 py-4 rounded-full text-lg font-medium hover:border-gray-400 transition-colors">
-                Join as Designer
+                I am a Designer
               </button>
             </div>
           </div>
