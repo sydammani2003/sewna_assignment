@@ -1,75 +1,7 @@
 import React, { useState } from 'react';
 import { Search, Shield, MessageCircle, Palette, Handshake, X } from 'lucide-react';
 
-// Mock designer data
-// const mockDesigners = [
-//   {
-//     id: 1,
-//     name: "Sarah Chen",
-//     specialty: "Modern Minimalist",
-//     styles: ["modern", "minimalist"],
-//     projectTypes: ["web", "mobile"],
-//     rating: 4.9,
-//     projects: 127,
-//     hourlyRate: "$85/hr",
-//     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah"
-//   },
-//   {
-//     id: 2,
-//     name: "Marcus Johnson",
-//     specialty: "Bold & Vibrant",
-//     styles: ["bold", "colorful"],
-//     projectTypes: ["branding", "marketing"],
-//     rating: 4.8,
-//     projects: 94,
-//     hourlyRate: "$75/hr",
-//     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus"
-//   },
-//   {
-//     id: 3,
-//     name: "Elena Rodriguez",
-//     specialty: "Elegant Classic",
-//     styles: ["elegant", "classic"],
-//     projectTypes: ["web", "branding"],
-//     rating: 5.0,
-//     projects: 156,
-//     hourlyRate: "$95/hr",
-//     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Elena"
-//   },
-//   {
-//     id: 4,
-//     name: "David Kim",
-//     specialty: "Tech Forward",
-//     styles: ["modern", "tech"],
-//     projectTypes: ["mobile", "web"],
-//     rating: 4.7,
-//     projects: 83,
-//     hourlyRate: "$80/hr",
-//     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=David"
-//   },
-//   {
-//     id: 5,
-//     name: "Priya Patel",
-//     specialty: "Playful Creative",
-//     styles: ["playful", "colorful"],
-//     projectTypes: ["branding", "illustration"],
-//     rating: 4.9,
-//     projects: 112,
-//     hourlyRate: "$70/hr",
-//     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Priya"
-//   },
-//   {
-//     id: 6,
-//     name: "Alex Thompson",
-//     specialty: "Corporate Professional",
-//     styles: ["elegant", "professional"],
-//     projectTypes: ["web", "marketing"],
-//     rating: 4.8,
-//     projects: 145,
-//     hourlyRate: "$90/hr",
-//     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex"
-//   }
-// ];
+
 
 const mockDesigners = [
   {
@@ -469,17 +401,7 @@ function App() {
                       onChange={(e) => setSelectedStyle(e.target.value)}
                       className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-lime-accent"
                     >
-                      {/* <option value="">Select a style...</option>
-                      <option value="modern">Modern</option>
-                      <option value="minimalist">Minimalist</option>
-                      <option value="bold">Bold</option>
-                      <option value="colorful">Colorful</option>
-                      <option value="elegant">Elegant</option>
-                      <option value="classic">Classic</option>
-                      <option value="playful">Playful</option>
-                      <option value="professional">Professional</option>
-                      <option value="tech">Tech Forward</option> */}
-
+                      
                       <option value="">Select a style...</option>
                       <option value="minimalist">Minimalist & Clean</option>
                       <option value="casual">Casual & Comfortable</option>
@@ -503,12 +425,6 @@ function App() {
                       onChange={(e) => setSelectedProjectType(e.target.value)}
                       className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-lime-accent"
                     >
-                      {/* <option value="">Select project type...</option>
-                      <option value="web">Web Design</option>
-                      <option value="mobile">Mobile App</option>
-                      <option value="branding">Branding</option>
-                      <option value="marketing">Marketing Materials</option>
-                      <option value="illustration">Illustration</option> */}
 
                       <option value="">Select occasion...</option>
                       <option value="everyday">Everyday Wear</option>
